@@ -40,6 +40,17 @@ body {
   fill: $white;
 }
 
+.bg-border {
+  position: absolute;
+  z-index: -1;
+  border: 2px solid $primary-purple;
+  width: 65%;
+  top: -30px;
+  height: 100%;
+  padding: 30px;
+  left: 35%;
+}
+
 .bg-purple {
   background-color: $primary-purple;
 }

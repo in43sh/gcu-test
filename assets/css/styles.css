@@ -29,6 +29,17 @@ body {
   fill: #ffffff;
 }
 
+.bg-border {
+  position: absolute;
+  z-index: -1;
+  border: 2px solid #522398;
+  width: 65%;
+  top: -30px;
+  height: 100%;
+  padding: 30px;
+  left: 35%;
+}
+
 .bg-purple {
   background-color: #522398;
 }
