@@ -12,10 +12,6 @@ $yellow:                 #ffe900;
 $white:                  #ffffff;
 
 // Page Layout
-body {
-  background-color:#b085f1;
-}
-
 .wrapper {
   position: relative;
   display: inline-block;
@@ -41,6 +37,8 @@ body {
 }
 
 .arrow {
+  width: 16px;
+  height: 16px;
   fill: $white;
 }
 
@@ -49,12 +47,12 @@ body {
   z-index: -1;
   border: 2px solid $primary-purple;
   width: 65%;
-  top: -30px;
+  top: -32px;
   height: 100%;
   padding: 30px;
   left: 35%;
-  -webkit-animation-duration: 10s;
-  animation-duration: 10s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
