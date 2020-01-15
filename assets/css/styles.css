@@ -27,6 +27,7 @@ body {
 
 .text {
   font-family: Helvetica;
+  font-weight: 600;
 }
 
 .arrow {
@@ -42,26 +43,6 @@ body {
   height: 100%;
   padding: 30px;
   left: 35%;
-}
-
-.bg-purple {
-  background-color: #522398;
-}
-
-.bg-blue {
-  background-color: #005a85;
-}
-
-.bg-green {
-  background-color: #c4d600;
-}
-
-.bg-orange {
-  background-color: #ff6b00;
-}
-
-.bg-yellow {
-  background-color: #ffe900;
 }
 
 /*# sourceMappingURL=styles.css.map */

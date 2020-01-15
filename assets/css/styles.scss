@@ -11,7 +11,7 @@ $orange:                 #ff6b00;
 $yellow:                 #ffe900;
 $white:                  #ffffff;
 
-// Layout
+// Page Layout
 body {
   background-color:#b085f1;
 }
@@ -24,7 +24,6 @@ body {
 .cta {
   position: absolute;
   bottom: 4px;
-  // height: 20%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -38,6 +37,7 @@ body {
 
 .text {
   font-family: Helvetica;
+  font-weight: 600;
 }
 
 .arrow {
@@ -53,24 +53,4 @@ body {
   height: 100%;
   padding: 30px;
   left: 35%;
-}
-
-.bg-purple {
-  background-color: $primary-purple;
-}
-
-.bg-blue {
-  background-color: $blue;
-}
-
-.bg-green {
-  background-color: $green;
-}
-
-.bg-orange {
-  background-color: $orange;
-}
-
-.bg-yellow {
-  background-color: $yellow;
 }
